@@ -1,1 +1,49 @@
-/* YOUR STYLES */
+/* TYPOGRAPHY */
+ 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 125%;
+}
+
+h3 {
+    font-weight: 500;
+    font-style: italic;
+}
+
+p {
+    font-size: 90%;
+}
+
+/* HEADER */
+
+.cd-header {
+    background-color: #a10022;
+}
+
+/* CONTENT CONTAINERS */
+
+.cd-gallery li.mix {
+    background: white;
+    padding: 1em;
+}
+
+/* GRID VIEW */
+
+.grid li.mix{
+   width: ;
+}
+
+/* LIST VIEW */
+
+.list li.mix{
+    width: 100%;
+}
+
+.list li.mix p {
+    color: #fff;
+    visibility: hidden;
+}

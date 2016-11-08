@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/demo.css"> <!-- Resource style -->
@@ -55,25 +56,25 @@
         
 		<section class="cd-gallery">
 			<ul>
-				<li class="mix req">
+				<li class="mix req dfc">
 					<h1>DESN 100</h1>
 					<h3>Drawing for Communication</h3>
-					<p>This course covers hand-drawing as a design skill. Emphasis is on sketching, design drawing, design process and composition studies for visual presentation and design solutions. Students gain drawing skills such as basics of drawing techniques, basic shapes, light, texture, pattern, gesture and perspective drawing to communicate and present their ideas visually. Students learn and develop critical thinking and creative problem solving skills using the drawing process.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam iusto quidem doloribus sit nostrum tenetur, ea nesciunt fugit sunt facere ducimus mollitia consequuntur, aut, corporis enim. Ullam ad recusandae reprehenderit.</p>
 				</li>
-				<li class="mix elect">
+				<li class="mix elect pro">
 					<h1>DESN 480</h1>
 					<h3>Professional Practice</h3>
-					<p>Professional Practice is the study of the visual design industry from both the agency and freelance perspective.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam iusto quidem doloribus sit nostrum tenetur, ea nesciunt fugit sunt facere ducimus mollitia consequuntur, aut, corporis enim. Ullam ad recusandae reprehenderit.</p>
 				</li>
-				<li class="mix req">
+				<li class="mix req dig">
 					<h1>DESN 216</h1>
 					<h3>Digital Foundations</h3>
-					<p>Introduction to media design and digital culture using computer software for the creation and manipulation of images and text, file management, and preparation for print, web or multimedia uses..</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam iusto quidem doloribus sit nostrum tenetur, ea nesciunt fugit sunt facere ducimus mollitia consequuntur, aut, corporis enim. Ullam ad recusandae reprehenderit.</p>
 				</li>
-				<li class="mix elect">
+				<li class="mix 100 mod">
 					<h1>DESN 355</h1>
 					<h3>Motion Design</h3>
-					<p>This course explores the principles of design through motion, with an emphasis on effective use of typography, graphical elements, sound and motion within time and space. Students learn how to import projects, create narrative structures, storyboard, output for various devices and problem solve moving image concerns.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam iusto quidem doloribus sit nostrum tenetur, ea nesciunt fugit sunt facere ducimus mollitia consequuntur, aut, corporis enim. Ullam ad recusandae reprehenderit.</p>
 				</li>
 
             
@@ -94,7 +95,7 @@
 					<h4>Search</h4>
 					
 					<div class="cd-filter-content">
-						<input type="search" placeholder="Try color-1...">
+						<input type="search" placeholder="Find classes">
 					</div> <!-- cd-filter-content -->
 				</div> <!-- cd-filter-block -->
 
@@ -103,18 +104,30 @@
 
 					<ul class="cd-filter-content cd-filters list">
 						<li>
-							<input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
-			    			<label class="checkbox-label" for="checkbox1">Option 1</label>
+							<input 
+                                class="filter" 
+                                data-filter=".req" 
+                                type="checkbox"   
+                                id="checkbox1">
+			    			    <label class="checkbox-label" for="checkbox1">Required</label>
 						</li>
 
 						<li>
-							<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
-							<label class="checkbox-label" for="checkbox2">Option 2</label>
+							<input 
+                                class="filter" 
+                                data-filter=".elect" 
+                                type="checkbox"   
+                                id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">Elective</label>
 						</li>
 
 						<li>
-							<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
-							<label class="checkbox-label" for="checkbox3">Option 3</label>
+							<input 
+                            class="filter" 
+                            data-filter=".100" 
+                            type="checkbox" 
+                            id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">Transferred</label>
 						</li>
 					</ul> <!-- cd-filter-content -->
 				</div> <!-- cd-filter-block -->
@@ -125,11 +138,11 @@
 					<div class="cd-filter-content">
 						<div class="cd-select cd-filters">
 							<select class="filter" name="selectThis" id="selectThis">
-								<option value="">Choose an option</option>
-								<option value=".option1">Option 1</option>
-								<option value=".option2">Option 2</option>
-								<option value=".option3">Option 3</option>
-								<option value=".option4">Option 4</option>
+								<option value="">Choose a class</option>
+								<option value=".dfc">Draw for Communication</option>
+								<option value=".pro">Professional Practice</option>
+								<option value=".dig">Digital Foundations</option>
+								<option value=".mod">Motion Design</option>
 							</select>
 						</div> <!-- cd-select -->
 					</div> <!-- cd-filter-content -->
